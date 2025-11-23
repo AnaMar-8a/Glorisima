@@ -80,6 +80,3 @@ GitHub: https://github.com/AnaMar-8a
 LinkedIn: https://www.linkedin.com/in/8aanamaria/ 
 
 **Librería Al Pie de la Letra**
-
-## 📬 Contacto Profesional
-ana.ochoa.patino@gmail.com
