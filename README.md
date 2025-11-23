@@ -1,69 +1,88 @@
-# Gloriosa
+# 📘 GLORIOSA
+### Presentación Web Interactiva 16:9  
+**Estrategia de Ventas Institucionales y Sector Público**  
+**Librería Al Pie de la Letra**
 
-# Al Pie de la Letra – Presentación Institucional
-Estrategia de Ventas Institucionales y Sector Público
-Versión HTML interactiva 16:9
+## 🧭 Descripción General
+Gloriosa es una presentación institucional completamente interactiva desarrollada en HTML, CSS y JavaScript Vanilla, diseñada como una herramienta corporativa para capacitaciones en ventas institucionales, sector público, y contratación estatal (SECOP II).
 
-Este repositorio contiene una presentación web completamente interactiva diseñada en HTML, CSS y JavaScript. Incluye navegación lateral, modales, tarjetas interactivas, línea de tiempo dinámica y un diseño 16:9 escalable.
+El proyecto implementa una arquitectura visual tipo “mini-app” con navegación lateral, contenedor escalable 16:9, modales dinámicos, tarjetas interactivas, timeline automático y componentes reutilizables.
 
-------------------------------------------------------------
-CARACTERÍSTICAS PRINCIPALES
-------------------------------------------------------------
-- Diseño moderno y responsivo con tokens de diseño en :root.
-- Contenedor principal 16:9 que se adapta automáticamente a la pantalla.
+## 🎯 Objetivos del Proyecto
+- Presentación de contenidos institucionales mediante una experiencia interactiva.
+- Alternativa moderna a PowerPoint, Keynote o Canva.
+- Capacitación en estrategias de relacionamiento, venta institucional y uso de SECOP II.
+- Base reusable para futuras presentaciones web profesionales.
+
+## 🖼️ Características Principales
+- Diseño moderno y responsivo, con tokens en :root.
+- Contenedor escalable 16:9.
 - Navegación lateral estilo aplicación.
 - Slides temáticos:
-  1. Portada
-  2. La Librería
-  3. Ponente
-  4. Estrategias de Relacionamiento
-  5. Sector Público y SECOP II
-  6. Riesgos Críticos
+  1. Portada  
+  2. La Librería  
+  3. Ponente  
+  4. Estrategias de Relacionamiento  
+  5. Sector Público y SECOP II  
+  6. Riesgos Críticos  
   7. Cierre
-- Modales para normativa, riesgos, checklist y línea de tiempo.
-- Tarjetas flip-card, timeline dinámica y checklist con barra de progreso.
+- Modales: normativa, riesgos, checklist, línea de tiempo.
+- Flip-cards animadas.
+- Timeline generado dinámicamente.
+- Checklist con barra de progreso.
 
-------------------------------------------------------------
-TECNOLOGÍAS UTILIZADAS
-------------------------------------------------------------
-- HTML5
-- CSS3
-- JavaScript Vanilla
-- Font Awesome 6.4.0
+## 🛠️ Tecnologías Utilizadas
+- HTML5  
+- CSS3  
+- JavaScript Vanilla  
+- Font Awesome 6.4.0  
 - Google Fonts (Montserrat + Playfair Display)
 
-No requiere Node.js, frameworks ni backend.
+## 📁 Estructura del Proyecto
+```
+/gloriosa
+│── index.html
+│── /css
+│     └── styles.css
+│── /js
+│     └── app.js
+│── /assets
+│     └── img/
+```
 
-------------------------------------------------------------
-CÓMO EJECUTARLO
-------------------------------------------------------------
-Opción 1: Abrir localmente
-1. Descarga el archivo index.html.
-2. Ábrelo en cualquier navegador moderno.
+## 🧩 Lógica JavaScript Principal
+- `app.goToSlide(index)` – Navegación.
+- `app.openTab(index)` – Pestañas internas.
+- `app.openModal(id)` / `app.forceClose(id)` – Modales.
+- `app.toggleCheck(element)` – Checklist.
+- Timeline dinámico basado en `timelineData[]`.
 
-Opción 2: GitHub Pages
-1. Sube los archivos a un repositorio.
-2. En Settings → Pages activa la rama main.
-3. Accede a la URL generada: https://github.com/AnaMar-8a/Gloriosa/blob/main/index.html
+## 🚀 Cómo Usarlo
+### Opción 1 — Local
+1. Descarga `index.html`.
+2. Ábrelo en el navegador.
 
-------------------------------------------------------------
-LÓGICA JS PRINCIPAL
-------------------------------------------------------------
-- app.goToSlide(index): Navegación entre diapositivas.
-- app.openTab(index): Activación de pestañas.
-- app.openModal(id) / app.forceClose(id): Gestión de modales.
-- app.toggleCheck(element): Actualización del checklist.
-- Generación dinámica de la línea de tiempo desde timelineData.
+### Opción 2 — GitHub Pages
+1. Sube los archivos al repositorio.
+2. En Settings → Pages activa la rama `main`.
+3. Abre la URL generada.
 
-------------------------------------------------------------
-PROPÓSITO
-------------------------------------------------------------
-- Capacitación en ventas institucionales y contratación pública.
-- Uso corporativo y educativo en talleres y presentaciones.
-- Base para futuras presentaciones web reutilizables.
+## 🧩 Reutilización y Personalización
+- Tokens centralizados en `:root`.
+- Slides modulares y fáciles de ampliar.
+- Componentes reutilizables.
+- Animaciones y datasets ampliables.
 
-------------------------------------------------------------
-AUTORES
-------------------------------------------------------------
-Librería Al Pie de la Letra
-Diseño y Desarrollo Web: Ana María Ochoa Patiño
+## 👩‍💻 Autores
+**Diseño, Arquitectura Web y Desarrollo**  
+**Ana María Ochoa Patiño**  
+GitHub: https://github.com/AnaMar-8a  
+LinkedIn: https://www.linkedin.com/in/anamarochoa  
+
+**Librería Al Pie de la Letra**
+
+## 📄 Licencia
+A definir (MIT sugerida).
+
+## 📬 Contacto Profesional
+ana.ochoa.patino@gmail.com
