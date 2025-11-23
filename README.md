@@ -77,12 +77,9 @@ El proyecto implementa una arquitectura visual tipo “mini-app” con navegaci�
 **Diseño, Arquitectura Web y Desarrollo**  
 **Ana María Ochoa Patiño**  
 GitHub: https://github.com/AnaMar-8a  
-LinkedIn: https://www.linkedin.com/in/anamarochoa  
+LinkedIn: https://www.linkedin.com/in/8aanamaria/ 
 
 **Librería Al Pie de la Letra**
-
-## 📄 Licencia
-A definir (MIT sugerida).
 
 ## 📬 Contacto Profesional
 ana.ochoa.patino@gmail.com
